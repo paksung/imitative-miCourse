@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>公告</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="lib/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/announcement.css" />
+    <!--[if lt IE 9]>
+        <script src="lib/html5.min.js" type="text/javascript"></script>
+        <script src="lib/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    <!--头部顶栏-->
+    <header class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+                    <a href="index.html">
+                        <img src="img/Brand.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="col-sm-2 visible-sm-block hidden-xs">
+                    <a href="#">
+                        <img src="img/Brand-M.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="col-xs-2 visible-xs-block">
+                    <a href="#">
+                        <img src="img/Brand-S.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="查找课程..." />
+                            <span class="input-group-btn">
+                                <button class="btn btn-search" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-5 col-xs-2">
+                    <nav class="navbar navbar-mi pull-right" role="navigation">
+                            <!-- logo和响应时导航收起 -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            <!-- 导航条目 -->
+                            <div class="collapse navbar-collapse" id="nav-list">
+                              <ul class="nav navbar-nav">
+                                <li><a href="index.html">首页</a></li>
+                                <li><a href="course.html">课程</a></li>
+                                <li class="active"><a href="announcement.html">公告</a></li>
+                                <li><a href="index.html">登录</a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>   
+    <!--占topbar位置-->
+    <div class="box" style="width:100%;height:71px;"></div>
+    <!--头部顶栏 end-->
+    
+    <!--页面内容-->
+        <div class="main-content container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-push-8 col-md-push-8">
+                    <div class="type-announcement wrapper">
+                        <ul class="nav nav-announce" role="tablist">
+                          <li role="presentation" data-title="所有公告" class="active"><a href="#all" role="tab" data-toggle="tab">所有公告</a></li>
+                          <li role="presentation" data-title="教务公告"><a href="#edu" role="tab" data-toggle="tab">教务公告</a></li>
+                          <li role="presentation" data-title="系统公告"><a href="#sys" role="tab" data-toggle="tab">系统公告</a></li>
+                          <li role="presentation" data-title="网站新闻"><a href="#new" role="tab" data-toggle="tab">网站新闻</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-pull-4 col-md-pull-4">
+                    <div class="all-announcement wrapper">
+                        <h3>所有公告</h3>
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="all">
+                              <ul class="announce-list">
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.29</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">米课新添“经典悦读计划”课程</a>
+                                                  <blockquote>
+                                                      <p>2015-16学年新课程类型“经典悦读”现已加入米课，快快来给你上过的经典悦读课打分吧~</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.28</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">【通知】2015-2016学年第二学期选课通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br />  2015-2016学年第二学期选课工作即将开始，请同学们仔细阅读选课说明，按时到网上选课。<br />  全部选课结果（除体育课）将在2016年2月20日公布，请务必及时在学生教务平台“我的课程”中确认，如有疑问尽快联系教务管理人员。</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.28</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">米课3.0上线啦！</a>
+                                                  <blockquote>
+                                                      <p>从2012到2015，三年里米课从1.0走向2.0，为许多同学们提供了选课的帮助。今天，米课3.0正式上线啦！尽管经历了许多波折，它依然在选课周的第一天到来了，并且带来了全新的使用体验。接下来，就让我们来看一下米课3.0的新功能吧！</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.28</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于课程信息的公告</a>
+                                                  <blockquote>
+                                                      <p>目前米课的数据库尚未更新，在此状态下可能会出现上课时间不准、课程介绍不清晰、学分显示有误等情况，请大家以教务网的课程信息为准，数据库的更新预计在24小时内完成。</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.03.09</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于新学期课程成绩查询及补考的通知</a>
+                                                  <blockquote>
+                                                      <p>各位老师、同学，<br /><br />根据《南京大学全日制本科生学籍管理细则》、《南京大学本科教学课程管理规定》和《南京大学本科教学成绩管理规定》等中的相关要求，现将上学期课程成绩及补考有关工作通知如下：</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.03.09</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于新学期报到注册、补退选课、交流生信息备案的通知</a>
+                                                  <blockquote>
+                                                      <p>同学们：<br /><br />  新学期已经开始，祝您在新学期学习顺利愉快。开学后您需要做报到注册，可能需要做补退选课、交流生信息备案等教务手续的办理，现将有关事项说明如下...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.03.09</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于新学期重修、补修申请的通知</a>
+                                                  <blockquote>
+                                                      <p>同学们：<br /><br />  新学期已经开始，祝您在新学期学习顺利愉快。开学后您可能需要做重修或补修的申请，现将有关事项说明如下....</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.12.20</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第二学期选课通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br /><br />2013-2014学年第二学期的选课工作即将开始。请各年级同学仔细阅读选课说明，按时到网上进行选课。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.09.08</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">新生研讨课入门考试时间通知</a>
+                                                  <blockquote>
+                                                      <p>各位新生同学：<br /><br />根据新生入学教育安排和新生研讨课任课教师工作安排，需通过入门考试确定上课名单的课程现已基本确定考试时间，请同学们互相转告，按时参加考试，否则视作弃权...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.08.30</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">本学期网络通识课《认识地球》开课说明</a>
+                                                  <blockquote>
+                                                      <p>请选上《认识地球》网络通识课程的学生注意，为使大家顺利完成课程，获得学分，特此通知以下事项：<br /><br />一、《认识地球》通识课网址为http://elearning.nju.edu.cn/，开课期间保持不变。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.08.30</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013级新生研讨课、跨专业课程的选课安排</a>
+                                                  <blockquote>
+                                                      <p>各位2013级同学：<br /><br />在完成新生报到后，同学们需要登录教务系统学生平台，完成信息确认和选课等事情，现将各项安排说明如下：...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.08.30</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第一学期选课等事宜的通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br /><br />新学期已经开始，祝您在新学期学习顺利愉快。开学后同学们需要在“教务系统”中进行网上选课等教务手续的办理，现将有关事项说明如下：...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.07.31</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第一学期选课等事宜的通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br /><br />新学期已经开始，祝您在新学期学习顺利愉快。开学后同学们需要在“教务系统”中进行网上选课等教务手续的办理，现将有关事项说明如下：...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.07.31</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">MiCourse成员招募</a>
+                                                  <blockquote>
+                                                      <p>MiCourse诞生已经220天了，四个小伙伴都要大三咯。<br /><br />经过了一次改版，我们依旧在不断改进，同时我们还有很多想法想去实现...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.07.06</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">小想法变成大平台</a>
+                                                  <blockquote>
+                                                      <p>在南大，每年总有那么两次轰轰烈烈的选课。而每次由于同学对选修课普遍缺乏了解，通常仅依靠学长学姐的零散经验，而导致开课后可能对所选课程缺乏兴趣，又要进行轰轰烈烈的退课补选，这在让同学们苦不堪言的同时也导致了教学资源的浪费。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.06.19</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">南京大学2013-2014学年第一学期选修课列表</a>
+                                                  <blockquote>
+                                                      <p>通识课、研讨课、文化素质选修课（仙林校区、鼓楼校区）、就业创业课...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.06.17</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">MiCourse网站使用说明</a>
+                                                  <blockquote>
+                                                      <p>点击即刻开启你的选课之旅吧！...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.06.17</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第一学期选课通知</a>
+                                                  <blockquote>
+                                                      <p>2013-2014学年第一学期的选课工作即将开始。请各年级同学仔细阅读选课说明，按时到网上进行选课。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.05.20</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">南京大学2013-2014学年校历</a>
+                                                  <blockquote>
+                                                      <p>南京大学2013-2014学年校历...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.03.04</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">教务处2012-2013学年第二学期工作安排表</a>
+                                                  <blockquote>
+                                                      <p>教务处2012-2013学年第二学期工作安排表...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="edu">
+                              <ul class="announce-list">
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.28</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">【通知】2015-2016学年第二学期选课通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br />  2015-2016学年第二学期的选课工作即将开始，请同学们仔细阅读选课说明，按时到网上选课。<br />  全部选课结果（除体育课）将在2016年2月20日公布，请务必及时在学生教服平台“我的课程”中确认，如有疑问尽快联系教务管理人员。</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.03.09</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于新学期课程成绩查询及补考的通知</a>
+                                                  <blockquote>
+                                                      <p>各位老师、同学，<br /><br />根据《南京大学全日制本科生学籍管理细则》、《南京大学本科教学课程管理规定》和《南京大学本科教学成绩管理规定》等中的相关要求，现将上学期课程成绩及补考有关工作通知如下：</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.03.09</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于新学期报到注册、补退选课、交流生信息备案的通知</a>
+                                                  <blockquote>
+                                                      <p>同学们：<br /><br />  新学期已经开始，祝您在新学期学习顺利愉快。开学后您需要做报到注册，可能需要做补退选课、交流生信息备案等教务手续的办理，现将有关事项说明如下...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.03.09</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于新学期重修、补修申请的通知</a>
+                                                  <blockquote>
+                                                      <p>同学们：<br /><br />  新学期已经开始，祝您在新学期学习顺利愉快。开学后您可能需要做重修或补修的申请，现将有关事项说明如下....</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.12.20</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第二学期选课通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br /><br />2013-2014学年第二学期的选课工作即将开始。请各年级同学仔细阅读选课说明，按时到网上进行选课。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.09.08</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">新生研讨课入门考试时间通知</a>
+                                                  <blockquote>
+                                                      <p>各位新生同学：<br /><br />根据新生入学教育安排和新生研讨课任课教师工作安排，需通过入门考试确定上课名单的课程现已基本确定考试时间，请同学们互相转告，按时参加考试，否则视作弃权...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.08.30</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">本学期网络通识课《认识地球》开课说明</a>
+                                                  <blockquote>
+                                                      <p>请选上《认识地球》网络通识课程的学生注意，为使大家顺利完成课程，获得学分，特此通知以下事项：<br /><br />一、《认识地球》通识课网址为http://elearning.nju.edu.cn/，开课期间保持不变。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.08.30</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013级新生研讨课、跨专业课程的选课安排</a>
+                                                  <blockquote>
+                                                      <p>各位2013级同学：<br /><br />在完成新生报到后，同学们需要登录教务系统学生平台，完成信息确认和选课等事情，现将各项安排说明如下：...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.08.30</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第一学期选课等事宜的通知</a>
+                                                  <blockquote>
+                                                      <p>各位同学：<br /><br />新学期已经开始，祝您在新学期学习顺利愉快。开学后同学们需要在“教务系统”中进行网上选课等教务手续的办理，现将有关事项说明如下：...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.06.13</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">2013-2014学年第一学期选课通知</a>
+                                                  <blockquote>
+                                                      <p>2013-2014学年第一学期的选课工作即将开始。请各年级同学仔细阅读选课说明，按时到网上进行选课。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.05.20</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">南京大学2013-2014学年校历</a>
+                                                  <blockquote>
+                                                      <p>南京大学2013-2014学年校历...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.03.04</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">教务处2012-2013学年第二学期工作安排表</a>
+                                                  <blockquote>
+                                                      <p>教务处2012-2013学年第二学期工作安排表...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="sys">
+                              <ul class="announce-list">
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.29</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">米课新添“经典悦读计划”课程</a>
+                                                  <blockquote>
+                                                      <p>2015-16学年新课程类型“经典悦读”现已加入米课，快快来给你上过的经典悦读课打分吧~</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.28</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">关于课程信息的公告</a>
+                                                  <blockquote>
+                                                      <p>目前米课的数据库尚未更新，在此状态下可能会出现上课时间不准、课程介绍不清晰、学分显示有误等情况，请大家以教务网的课程信息为准，数据库的更新预计在24小时内完成。</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="new">
+                              <ul class="announce-list">
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2015.12.28</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">米课3.0上线啦！</a>
+                                                  <blockquote>
+                                                      <p>从2012到2015，三年里米课从1.0走向2.0，为许多同学们提供了选课的帮助。今天，米课3.0正式上线啦！尽管经历了许多波折，它依然在选课周的第一天到来了，并且带来了全新的使用体验。接下来，就让我们来看一下米课3.0的新功能吧！</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.07.31</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">MiCourse成员招募</a>
+                                                  <blockquote>
+                                                      <p>MiCourse诞生已经220天了，四个小伙伴都要大三咯。经过了一次改版，我们依旧在不断改进，同时我们还有很多想法想去实现...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.07.06</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">小想法变成大平台</a>
+                                                  <blockquote>
+                                                      <p>在南大，每年总有那么两次轰轰烈烈的选课。而每次由于同学对选修课普遍缺乏了解，通常仅依靠学长学姐的零散经验，而导致开课后可能对所选课程缺乏兴趣，又要进行轰轰烈烈的退课补选，这在让同学们苦不堪言的同时也导致了教学资源的浪费。...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="row">
+                                          <div class="col-md-2">
+                                              <mark>2013.06.17</mark>
+                                          </div>
+                                          <div class="col-md-10">
+                                              <div class="detail">
+                                                  <a href="#">南京大学选修课评价平台MiCourse正式发布</a>
+                                                  <blockquote>
+                                                      <p>转眼间，又要选课啦！！！<br /><br />还记得六个月前的那个MiCourse吗？我们改版啦！<br /><br />在这选课前的关键时刻，micourse.net正式上线啦！！！...</p>
+                                                  </blockquote>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--页面内容 end-->
+
+    <!--底部-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="media">
+                      <a class="media-left" href="#">
+                        <img src="img/MiLogo-S.png" class="img-responsive" alt="logo">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-heading">关于米课</h4>
+                        原由米课团队开发运营，后交由小百合工作室进行全新改版与功能丰富，致力于搭建帮助南大各院系同学选好课程，分享感受，互动交友的校内平台。感谢同学们的大力支持。
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="media">
+                      <a class="media-left" href="#">
+                        <img src="img/LilyStudio.png" class="img-responsive" alt="lily-logo">
+                      </a>
+                      <div class="media-body">
+                        <h4 class="media-heading">关于小百合工作室</h4>
+                        工作室成立于2000年，是由南京大学网络爱好者自发组织的一个学生团体，致力于传播校园网络文化，促进校园网络建设，服务广大同学，并为爱好网络和计算机科学与技术的同学提供一个交流学习，共同提高的平台。
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">
+                <a href="#">南大首页</a>
+                <a href="#">南大教务</a>
+                <a href="#">意见反馈</a>
+                <a href="#">米课分一分^ ^</a>
+            </p>
+            <p class="text-center">Designed & developed by CPC, Hane, ZingSS, SuperLatte, Christine & Polaris.</p>
+            <p class="text-center">Copyright&copy;Lily Studio, 2015-2016</p>
+        </div>
+    </footer>
+    <!--底部 end-->
+
+    <script src="lib/jQuery/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".nav-announce>li").click(function(event) {
+                $(".all-announcement h3").text($(this).data('title'));
+            });
+        });
+    </script>
+</body>
+</html>
